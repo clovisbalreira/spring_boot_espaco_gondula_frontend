@@ -3,17 +3,33 @@ import React from "react";
 import { Row, Col, Card, Input, Button} from 'react-materialize';
 //import ProductService from '../../../../service/product-service';
 
-export default function Save(){
+export default function Edit(){
   return ( 
-    <table class="striped">
-   </table>          
+    <Row>
+   </Row>          
   );
 }
 /**
- *       <Card>
-        <span class="blue-text text-darken-2">Adicionar Produto</span>
+ *       <Card class="card-panel">
+        <span class="blue-text text-darken-2">Editar Produto</span>
       </Card>
 
+      <Col s={9}>
+        <Row class="input-field">
+        <Input
+          placeholder="Digite o nome Código"
+          label="Código"
+          s={12}
+          //value={}
+          //onChange={} 
+          />
+        </Row>
+      </Col>
+
+      <Col s={2}>
+        <Button class="waves-effect waves-light btn">Editar</Button>
+      </Col>
+        
       <Col s={12}>
         <Row class="input-field">
           <Input
@@ -26,7 +42,7 @@ export default function Save(){
         </Row>
       </Col>
 
-      <Col s={9}>
+      <Col s={12}>
         <label>Fornecedor</label>
         <select class="browser-default">
           <option value="" disabled selected>Selecione o fornecedor</option>
@@ -34,10 +50,6 @@ export default function Save(){
           <option value="2">Option 2</option>
           <option value="3">Option 3</option>
         </select>
-      </Col>
-
-      <Col s={3}>
-        <Button class="waves-effect waves-light btn">Salvar</Button>
       </Col>
  
  */

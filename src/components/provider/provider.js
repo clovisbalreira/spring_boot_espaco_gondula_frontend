@@ -6,9 +6,9 @@ import Edit from './components/edit/edit'
 import Delete from './components/delete/delete'
 import { Row, Col } from 'react-materialize'
 
-class Product extends Component{
+class Provider extends Component{
     render(){
-        return ( 
+        return (
             <Row>
                 <Col s={12} m={12} l={6} ><List/></Col>
                 <Col s={12} m={12} l={5} offset={'l1'}>
@@ -23,4 +23,4 @@ class Product extends Component{
     }
 }
 
-export default Product;
+export default Provider;

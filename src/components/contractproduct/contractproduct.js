@@ -6,7 +6,7 @@ import Edit from './components/edit/edit'
 import Delete from './components/delete/delete'
 import { Row, Col } from 'react-materialize'
 
-class Product extends Component{
+class ContractProduct extends Component{
     render(){
         return ( 
             <Row>
@@ -23,4 +23,4 @@ class Product extends Component{
     }
 }
 
-export default Product;
+export default ContractProduct;
